@@ -65,9 +65,9 @@ pip install -r requirements.txt
 
 ---
 
-# 등록 이미지 준비
+# 면허증 용 등록 이미지 준비
 
-등록할 얼굴 이미지를
+등록할 면허증 이미지를
 
 ```
 registered/
@@ -79,15 +79,13 @@ registered/
 
 ```
 registered/
-    person1.png
-    person2.png
-```
+    my_license.png
 
-등록 이미지는 여러 장일수록 평균 Embedding을 생성하므로 정확도가 향상됩니다.
+```
 
 ---
 
-# 등록 Embedding 생성
+# 면허증 Embedding 생성
 
 ```bash
 python register_embedding.py
