@@ -30,7 +30,7 @@ face_test/
 
 # 개발 환경
 
-- Python 3.11+
+- Python 3.14.5 이상
 - InsightFace
 - ONNX Runtime
 - OpenCV
